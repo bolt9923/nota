@@ -6,7 +6,7 @@ from BrandrdXMusic import app
 
 #--------------------------
 
-MUST_JOIN = "THE_FUCKER_BOTS_2926"
+MUST_JOIN = "NLTRIDE"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
