@@ -34,7 +34,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_video(
-        video="https://envs.sh/ozv.mp4",
+        video="https://files.catbox.moe/2me01u.mp4",
         caption=start_txt,
         reply_markup=reply_markup
     )
