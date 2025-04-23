@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7804554129"))
+OWNER_ID = int(getenv("OWNER_ID", "5487734890"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/CHALCOGEN645/system",
+    "https://github.com/bolt9923/nota",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_lafz_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+KlbXA4vCNlwyMjA1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+JX6DIGP9q_dlMDE1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JX6DIGP9q_dlMDE1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,7 +90,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/zspu40.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/ms7xee.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/1i9pr6.jpg"
